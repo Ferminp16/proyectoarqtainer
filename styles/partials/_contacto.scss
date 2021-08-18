@@ -1,0 +1,96 @@
+$alto: 50vh;
+
+form{
+    width: 26vw;
+  }
+
+.misDatos{
+    &__h3{
+    font-family: prompt;
+    }
+    &__p{
+    text-align: justify;
+      margin: 0px 0px 15px ;
+      color: $color-footer;
+    }
+    &__iframe{
+      margin: 0;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: solid black 1px;
+    
+    }
+    &__mail{
+        color: $color-footer;
+        font-family: prompt;
+        
+    }
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    &__label{
+    font-family: prompt;
+    font-size: 16px;
+    font-weight: bold;
+    color: $color-negro;
+      margin: 0.5rem 0.5rem
+    }
+    &__input{
+      background-color: $color-body;
+      margin: 0.5rem 0.5rem;
+      border: solid $color-footer   1px;
+      height: 2rem;
+      width: 350px;
+      border-radius: 5px;
+    }
+    &__mensaje{
+      background-color: $color-body;
+      border: solid $color-footer   1px;
+      height: $alto/2;
+      width: 350px;
+      border-radius: 5px;
+      margin: 8px;
+    
+    }
+}
+
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    &__btn{
+        color: $color-blanco;
+        background-color:$color-footer ;
+        text-decoration:none;
+        border-radius: 3px;
+        border: solid 1px $color-blanco;
+        box-shadow: 2px 2px #00c8bb67;
+        width: 7rem;
+        transition: 0.5s;
+        &:hover{
+            transform: scale(1.05);
+            background-color: #018d84;
+            
+        }  
+    }
+    &__reset{
+        color: $color-blanco;
+        background-color: $color-footer ;
+        text-decoration:none;
+        border-radius: 3px;
+        border: solid 1px $color-blanco;
+        box-shadow: 2px 2px #00c8bb67;
+        width: 7rem;
+        transition: 0.5s;
+        &:hover{
+            transform: scale(1.05);
+            background-color: #018d84;
+        
+    }
+    
+}
+
+}

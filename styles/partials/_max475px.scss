@@ -1,0 +1,39 @@
+/* css para celulares grandes */
+
+@media only screen and (max-width:475px)
+{
+ 
+
+  h1{
+      font-size: 29px;
+      margin: 1rem;
+  }
+
+  .misDatos{
+    display:block;
+    text-align: center;
+  }
+
+  .misDatos p{
+    text-align: center;
+  }
+
+  form{
+    margin-left: 35px;
+  }
+
+  .botones{
+    margin-left: 184px;
+  }
+
+  .reset{
+    padding: 5px 10px;
+  }
+  .carousel-inner{
+    height: 50vh;
+  }
+  .textoNosotros{
+    display: block;
+    text-align: justify;
+  }
+}

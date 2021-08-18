@@ -1,0 +1,47 @@
+
+$ancho: 300px;
+$borde: 2px;
+
+
+.viviendas{
+    background-color:rgb(107, 106, 106);
+    width: $ancho;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid $borde black;
+    border-radius: 5px;
+    box-shadow: 3px 3px #00c8bb67; 
+    padding: 1rem;
+    &__img{
+        width: $ancho - 50;
+      border: solid $borde #00C8BB;
+      border-radius: 5px;
+      box-shadow: 2px 2px #00c8bb67;
+      }
+    &__h3{
+      font-family: prompt;
+      color: white;
+    }
+    &__boton{
+      color: white;
+      background-color:#00C8BB ;
+      padding: 5px 15px;
+      text-decoration:none;
+      border-radius: 3px;
+     border: solid $borde - 1 white;
+     box-shadow: 2px 2px #00c8bb67;
+     transition: 0.5s;
+     font-family: prompt;
+     font-weight: bold;
+     &:hover{
+     background-color: #018d84;
+         transform: scale(1.05);
+       }
+     
+    }
+    
+    
+}

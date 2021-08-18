@@ -1,0 +1,37 @@
+@import "./variables";
+
+.pag404{
+    background-color: $color-body;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.error{
+    
+    &__h1{
+        font-family:'Times New Roman', Times, serif;
+            color: $color-footer;
+            font-size:  70px;
+        }
+        &__texto{
+            font-size: 1.5rem;
+            
+        }
+        &__link{
+            padding: 4px;
+            color: $color-blanco;
+            background-color:$color-footer ;
+            text-decoration:none;
+            border-radius: 3px;
+            border: solid 1px $color-blanco;
+            box-shadow: 2px 2px #00c8bb67;
+            width: 7rem;
+            transition: 0.5s;
+            &:hover{
+                transform: scale(1.05);
+                background-color: $color-footer;
+        }
+}
+}

@@ -1,0 +1,21 @@
+
+.hero{
+    height: 80vh;
+    background: radial-gradient(circle, rgba(98,107,107,0.5998774509803921) 0%, rgba(83,85,89,0.8435749299719888) 100%), url(../img/edificiosContainers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__h1{
+      font-size: 4rem;
+      background-color:none;
+      color: $color-blanco;
+    }
+    &__p{
+        color: $color-blanco;
+        font-family: $font-primary;
+    }
+   
+  }
+
+  
+  
