@@ -38,6 +38,11 @@ main {
   min-height: 120vh;
 }
 
+.active-menu {
+  color: white !important;
+  font-weight: 700;
+}
+
 .hero {
   height: 80vh;
   background: radial-gradient(circle, rgba(98, 107, 107, 0.599877) 0%, rgba(83, 85, 89, 0.843575) 100%), url(../img/edificiosContainers.jpg);
@@ -130,6 +135,10 @@ main {
   background-color: #00c8bb;
 }
 
+.footer__redes {
+  color: white;
+}
+
 form {
   width: 26vw;
 }
@@ -147,6 +156,8 @@ form {
 .misDatos__iframe {
   margin: 0;
   margin-bottom: 15px;
+  border-radius: 5px;
+  border: solid black 1px;
 }
 
 .misDatos__mail {
@@ -278,6 +289,12 @@ form {
 
 .carousel-inner {
   height: 80vh;
+}
+
+.carousel-inner__p {
+  background-color: #16111173;
+  padding: 4px;
+  border-radius: 3px;
 }
 
 .textoNosotros {
