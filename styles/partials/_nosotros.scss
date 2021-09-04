@@ -1,5 +1,11 @@
 .carousel-inner{
     height:80vh;
+    &__titulo{
+        color: white;
+        background-color: #16111173;
+        
+        border-radius: 3px;
+    }
     &__p{
            background-color: #16111173;
         padding: 4px;

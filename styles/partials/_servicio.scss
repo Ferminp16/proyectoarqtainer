@@ -1,5 +1,9 @@
 .servicio{
+    &__contenedor{
+      width: 99%;
+    }
     &__cajas{
+    
     text-align: center;
     font-family: prompt;
     }
@@ -10,3 +14,7 @@
 
   }
 }
+
+// .row{
+//   width:99%;
+// }

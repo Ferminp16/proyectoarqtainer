@@ -64,6 +64,7 @@ form{
     &__btn{
         color: $color-blanco;
         background-color:$color-footer ;
+        margin: 0 4px;
         text-decoration:none;
         border-radius: 3px;
         border: solid 1px $color-blanco;
@@ -79,6 +80,7 @@ form{
     &__reset{
         color: $color-blanco;
         background-color: $color-footer ;
+        margin: 0 4px;
         text-decoration:none;
         border-radius: 3px;
         border: solid 1px $color-blanco;
